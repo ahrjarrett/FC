@@ -6,7 +6,7 @@
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-	background: #1a303b;
+	background: #213643;
 }
 
 .menu li a {
@@ -24,7 +24,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	background: #1a303b;
+	background: #213643;
 }
 
 
