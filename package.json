@@ -1,0 +1,17 @@
+{
+  "name": "followclosely",
+  "version": "0.0.0",
+  "description": "dev fc site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahrjarrett/FC.git"
+  },
+  "author": "andrew jarrett",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
