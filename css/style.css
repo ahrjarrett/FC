@@ -1,32 +1,5 @@
 @import url('menu.css');
 
-/*
-
-header museo-sans 16px 500
-
-h1 museo-sans 50px 600
-p open sans 22px 100
-form helvetica 13px normal
-button museo sans 18px 100
-
-h2 open sans 42px 600
-h3 open sans 22px normal
-
-h3 open sans 28px normal
-p open sans 16px 300
-
-[testimonial]
-p open sans 28px 100
-p open sans 24px 600
-p open sans 18px 600
-
-h2 open sans 42px 600
-h3 open sans 22px normal
-
-
-
-*/
-
 h1 {
 	font-size: 4em;
 }

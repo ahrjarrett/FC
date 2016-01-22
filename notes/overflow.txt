@@ -1,4 +1,5 @@
-/* CHAPTER I: Code snipped from MENU.CSS */
+/* CHAPTER I: SNIPPED FROM MENU.CSS */
+/* ================================ */
 
 /* removed from @media tag about (single-nav nested inside) */
 /*
@@ -52,4 +53,55 @@ header {
 	padding-top: 15px;
 	margin-left: 15px;
 } */
+
+
+
+/* CHAPTER 2: SNIPPED FROM INDEX.HTML */
+/* ================================== */
+
+
+<!-- <div class="logo"><a href=""><img height="52" src="images/logo.png"></a></div> -->
+<!--
+	<div class="main-nav-wrapper">
+
+		<nav class="main-nav">
+			<ul>
+				<li><a href="#0">Product</a></li>
+					<li><a href="#0">Pricing</a></li>
+	        <li><a href="#0">Resources</a></li>
+					<li><a href="#0">Demo</a></li>
+					<li><a href="#0">Blog</a></li>
+			</ul>
+		</nav>
+	</div>
+-->
+
+
+/* CHAPTER 3: FONT STYLESHEET FOR HOMEPAGE */
+/* ======================================= */
+
+
+/*
+header museo-sans 16px 500
+
+h1 museo-sans 50px 600
+p open sans 22px 100
+form helvetica 13px normal
+button museo sans 18px 100
+
+h2 open sans 42px 600
+h3 open sans 22px normal
+
+h3 open sans 28px normal
+p open sans 16px 300
+
+[testimonial]
+p open sans 28px 100
+p open sans 24px 600
+p open sans 18px 600
+
+h2 open sans 42px 600
+h3 open sans 22px normal
+*/
+
 
