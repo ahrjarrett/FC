@@ -1,0 +1,115 @@
+h1 {
+	font-size: 4em;
+}
+h2 {
+	font-size: 2.75em;
+}
+h3 {
+	font-size: 2em;
+	font-weight: 300;
+}
+h4 {
+	font-size: 1.5em;
+	font-weight: 300;
+}
+.center {
+	text-align: center;
+}
+.headshot {
+	border-radius: 100%;
+}
+
+.bgimage {
+	background-image: url('../images/bgimage01.jpg');
+	background-position: center center;
+	background-size: cover;
+	height: 450px;
+}
+.header-text {
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+.form-header {
+	text-align: center;
+}
+.btn-demo {
+	background-color: #91b617;
+	color: #ffffff;
+	border-radius: 0;
+	border: none;
+	padding: 15px 30px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.services-header {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #bcbdb6;
+}
+.services-icons {
+	padding-top: 50px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #bcbdb6;
+}
+.services-no-icons {
+	padding-top: 25px;
+}
+.icon {
+  max-width: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+.call-to-action-home {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.testimonial-home {
+	background-color: #3d515c;
+	height: 350px;
+	font-size: 16px;
+}
+.testimonial-header {
+	color: #fff;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 25px;
+	line-height: 1.4em;
+}
+.testimonial-sub {
+	text-align: center;
+	color: #76a0ba;
+	font-weight: 500;
+}
+.testimonial-tag {
+	text-align: center;
+	color: #ffffff;
+	font-weight: 500;
+}
+#testimonial-headshot {
+	margin-top: 50px;
+}
+
+.industries {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.industries a {
+	line-height: 1.65em;
+}
+
+.reputation {
+	background-color: #b8cad6;
+	height: 200px;
+}
+.reputation img {
+	/* height: 45px; */
+	padding: 0 5px;
+}
