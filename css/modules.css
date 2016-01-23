@@ -1,0 +1,73 @@
+.center {
+	text-align: center;
+}
+}
+.headshot {
+	border-radius: 100%;
+}
+
+/* HEADER (NON-HOMEPAGE) */
+.bgimage {
+	background-image: url('../images/bgimage02.jpg');
+	background-position: center center;
+	background-size: cover;
+	height: 600px;
+}
+
+table {
+}
+
+tr {
+}
+
+td {
+}
+
+.price-column-1 {
+	background: #77a0b9;
+}
+
+/* DIV FOR PRICING TABLE */
+.pricing-table {
+	font-family: "Open Sans";
+}
+
+/* PRICE affects price-monthly  */
+
+/*  MOST POPULAR */
+.price-popular {
+	color: #f0eee8;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1;
+	margin-bottom: 22px;
+}
+
+/* BASIC, VALUE, PREMIUM */
+.price-name {
+	color: #223642;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+
+/* $159 $199 $299 */
+.price-monthly {
+	font-size: 65px;
+}
+
+/* /MO */
+.price-period {
+}
+
+/* % SAVINGS */
+.price-save {
+}
+
+/* # OF CONTACTS */
+.price-volume {
+}
+
+/* __ ENGINE */
+.price-product {
+}

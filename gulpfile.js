@@ -2,14 +2,16 @@ var gulp = require('gulp'),
 		connect = require('gulp-connect');
 
 var htmlSources = [
-	'index.html'
+	'index.html',
+	'html/pricing.html'
 ];
 var jsSources = [
 	'js/script.js'
 ];
 var cssSources = [
 	'css/style.css',
-	'css/menu.css'
+	'css/menu.css',
+	'css/modules.css'
 ];
 
 gulp.task('connect', function (){
@@ -39,11 +41,3 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', ['connect', 'watch']);
-
-
-
-/* gulp.task('js', function (){
-	gulp.src('./js/*.js')
-		.pipe(connect.reload());
-});*/
-
