@@ -14,24 +14,54 @@
 	height: 600px;
 }
 
-table {
+
+@media screen and (min-width: 768px) {
+	.flexcontainer {
+		display: -webkit-flex;
+  	display: flex;
+   	-webkit-flex-direction: row;
+   	flex-direction: row;
+   	-webkit-align-items: center;
+   	align-items: center;
+   	-webkit-justify-content: center;
+   	justify-content: center;
+	}
 }
 
-tr {
+@media screen and (max-width: 768px) {
+	.price-column {
+		margin: 0 auto;
+	}
 }
 
-td {
-}
-
-.price-column-1 {
-	background: #77a0b9;
-}
 
 /* DIV FOR PRICING TABLE */
+
 .pricing-table {
 	font-family: "Open Sans";
+	text-align: center;
 }
 
+
+
+.price-column {
+	max-width: 340px;
+	padding: 40px 20px;
+
+}
+/* $159 $199 $299 */
+.price-monthly  {
+	color: #223642;
+	font-size: 65px;
+	font-weight: 800;
+}
+.price-column-1 {
+	background: #77a0b9;
+	color: #f0eee8;
+}
+.price-column-1 .price { 
+	color: #fff;
+}
 /* PRICE affects price-monthly  */
 
 /*  MOST POPULAR */
@@ -46,28 +76,51 @@ td {
 /* BASIC, VALUE, PREMIUM */
 .price-name {
 	color: #223642;
-	font-weight: 700;
+	font-weight: 800;
+	font-size: 36px;
 	margin: 0;
 	padding: 0;
 }
-
-/* $159 $199 $299 */
-.price-monthly {
-	font-size: 65px;
-}
-
 /* /MO */
 .price-period {
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
 }
-
 /* % SAVINGS */
 .price-save {
+	margin: 0 0 24px;
+	padding: 0;
+	line-height: 1.425;
 }
-
+.price-column .price-save {
+	color: #77a0b9;
+	font-size: 16px;
+	font-weight: 600;
+}
+.price-column-1 .price-save { 
+	color: #f0eee8
+}
 /* # OF CONTACTS */
 .price-volume {
 }
-
-/* __ ENGINE */
-.price-product {
+.price-description {
+	font-size: 18px;
+	font-weight: 500;
+	/*line-height: 21.6px;*/
+	padding-top: 10px;
+}
+.price-description {
+	color: #77a0b9;
+	padding-top: 40px;
+	border-top: 1px solid #babcb4;
+}
+.price-column-1 .price-description {
+	color: #fff;
+	border-top: 1px solid #fff;
+}
+.price-volume {
+	color: #223642;
 }
